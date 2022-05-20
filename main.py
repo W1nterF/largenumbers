@@ -19,7 +19,7 @@ def generateKeys(bits_length):
     for i in bits_length:
         try:
             key = random.getrandbits(i);
-            print(f"=========={i}-bit encryption key==========\n{key}\n==========end of encryption key==========\n\n")
+            print(f"=========={i}-bit encryption key==========\n{key}\n=========================================\n\n")
         except OverflowError:
             print(f"{i}-bits = inf")
 
