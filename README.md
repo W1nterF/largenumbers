@@ -28,8 +28,6 @@ The 32-bit key was guessed in 273265 milliseconds (4 minutes 33 seconds).
 
 To select a 64-bit key, it will take twice as much time, and so on.
 
-Unfortunately, the brute force cycle will not be able to reach its logical end, as the time to select all 10 generated keys is approaching infinity.
-
 **It is clearly seen how quickly the required time began to increase with increasing key length.**
 
 *We can conclude that passwords containing less than 8-10 characters are not strong. Increasing the key length, using different registers, special characters, will increase the required time to guess your key!*
