@@ -7,7 +7,7 @@
 
 
 # Program description
-After starting, the program calculates the number of key options using the formula $$2^n$$, where $$n$$ is the length of the key in bits.
+After starting, the program calculates the number of key options using the formula $2^n$, where $n$ is the length of the key in bits.
 ![Example](https://user-images.githubusercontent.com/47121348/169695402-466ad0f4-651f-4aab-acc8-1a3a59456104.png)
 
 The program then generates the keys. I used a pseudo-random sequence generator for **educational purposes (and only for them)**.
