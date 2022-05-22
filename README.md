@@ -8,8 +8,10 @@
 
 # Program description
 After starting, the program calculates the number of key options using the formula $2^n$, where $n$ is the length of the key in bits.
-![Screenshot_38 (2)](https://user-images.githubusercontent.com/47121348/169696400-af38751a-3ad5-470a-a4e6-81ec0c221a4e.png)
+**Screenshots do not contain a full report on the program in order to save space!**
+![Example](https://user-images.githubusercontent.com/47121348/169697147-8f7ccb9a-6fb0-49f6-a42d-a101edeb3cdf.png)
+
 
 The program then generates the keys. I used a pseudo-random sequence generator for **educational purposes (and only for them)**.
-![Example](https://user-images.githubusercontent.com/47121348/169695595-f2a49c36-4b2e-4932-85d5-bb181a535969.png)
+![Example](https://user-images.githubusercontent.com/47121348/169697206-c5c4608d-a19d-486c-9101-9a7605113ca3.png)
 
