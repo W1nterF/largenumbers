@@ -24,7 +24,8 @@ Brute force of the key starts from 0 and up to the maximum value within the give
 
 
 The screenshot shows that the 8-bit key was guessed in less than 1 millisecond, the 16-bit key took 15 milliseconds.
-The 32-bit key was guessed in 273265 milliseconds (4 minutes 33 seconds)
+The 32-bit key was guessed in 273265 milliseconds (4 minutes 33 seconds).
+
 To select a 64-bit key, it will take twice as much time, and so on.
 
 **It is clearly seen how quickly the required time began to increase with increasing key length.**
