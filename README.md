@@ -3,7 +3,7 @@
 #### Technical task:
 + Using one of the existing libraries (you can make it yourself, but it's better to use the existing one to save time), print the number of key options that can be set 8-, 16-, 32-, 64-, 128-, 256-, 512- , 1024-, 2048-, 4096-bit sequence. *Example:* If the key length is 16 bits, then the key space is 65536. The keyspace is the number of unique keys that are in the given range.
 + For each of the options, it is necessary to generate a random key value that belongs to the range from 0x00…0 to 0xFF…F, depending on the selected key length.
-+ Write a function to brute force values ​​from a range to find a key. The purpose of the function is to iterate over the key values from 0x00...0 until a value is found that is equal to the pre-generated key. The function should output the amount of time, in milliseconds, that it took to find the key.
++ Write a function to brute force values from a range to find a key. The purpose of the function is to iterate over the key values from 0x00...0 until a value is found that is equal to the pre-generated key. The function should output the amount of time, in milliseconds, that it took to find the key.
 
 
 # Program description
@@ -23,9 +23,9 @@ Brute force of the key starts from 0 and up to the maximum value within the give
 ![Example](https://user-images.githubusercontent.com/47121348/169697313-177a92e1-3568-409d-9c4d-abd10d57ccac.png)
 
 
-The screenshot shows that the 8-bit key was guessed in less than 1 millisecond, the 16-bit key took 15 milliseconds.
-The 32-bit key was guessed in 273265 milliseconds (4 minutes 33 seconds).
-To select a 64-bit key, it will take twice as much time, and so on.
++ The screenshot shows that the 8-bit key was guessed in less than 1 millisecond, the 16-bit key took 15 milliseconds.
++ The 32-bit key was guessed in 273265 milliseconds (4 minutes 33 seconds).
++ To select a 64-bit key, it will take twice as much time, and so on.
 
 **It is clearly seen how quickly the required time began to increase with increasing key length.**
 
