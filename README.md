@@ -6,3 +6,10 @@
 + Write a function to brute force values ​​from a range to find a key. The purpose of the function is to iterate over the key values from 0x00...0 until a value is found that is equal to the pre-generated key. The function should output the amount of time, in milliseconds, that it took to find the key.
 
 
+# Program description
+After starting, the program calculates the number of key options using the formula $$2^n$$, where $$n$$ is the length of the key in bits.
+![Example](https://user-images.githubusercontent.com/47121348/169695402-466ad0f4-651f-4aab-acc8-1a3a59456104.png)
+
+The program then generates the keys. I used a pseudo-random sequence generator for **educational purposes (and only for them)**.
+![Example](https://user-images.githubusercontent.com/47121348/169695595-f2a49c36-4b2e-4932-85d5-bb181a535969.png)
+
