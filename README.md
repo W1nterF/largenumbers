@@ -20,6 +20,7 @@ The program then generates the keys. I used a pseudo-random sequence generator f
 
 
 Brute force of the key starts from 0 and up to the maximum value within the given limits.
+
 ![Example](https://user-images.githubusercontent.com/47121348/169697313-177a92e1-3568-409d-9c4d-abd10d57ccac.png)
 
 
