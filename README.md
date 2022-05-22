@@ -11,8 +11,7 @@ After starting, the program calculates the number of key options using the formu
 
 **Screenshots do not contain a full report of the program in order to save space!**
 
-![Example](https://user-images.githubusercontent.com/47121348/169697147-8f7ccb9a-6fb0-49f6-a42d-a101edeb3cdf.png)
-
+![Example](https://user-images.githubusercontent.com/47121348/169698195-5744c7bb-5c52-4e40-ba55-3544c4568b70.png)
 
 The program then generates the keys. I used a pseudo-random sequence generator for **educational purposes (and only for them)**.
 
